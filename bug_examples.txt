@@ -1,0 +1,273 @@
+// Example 1: Missing Semicolon
+
+using System;
+
+namespace Example1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!") 
+        }
+    }
+}
+
+/*
+Quiz Question 1: What is the problem with the above code?
+
+A. There is a missing bracket.
+B. The "Console.WriteLine" method is incorrect.
+C. The semicolon is missing after the Console.WriteLine statement.
+D. "Hello, World!" is not in quotes.
+
+*/
+
+// Example 2: Uninitialised Variable
+
+using System;
+
+namespace Example2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x;  
+            Console.WriteLine(x);
+        }
+    }
+}
+
+/*
+Quiz Question 2: What will happen when you try to run the above code?
+
+A. The program will compile and output "0".
+B. The program will throw a compilation error due to uninitialised variable "x".
+C. The program will run but output nothing.
+D. The program will produce a runtime exception.
+
+*/
+
+// Example 3: Incorrect String Comparison
+
+using System;
+
+namespace Example3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Alice";
+            if (name == 'Alice') // 
+            {
+                Console.WriteLine("Hello, Alice!");
+            }
+        }
+    }
+}
+
+/*
+Quiz Question 3: What is the problem with the above code?
+
+A. Strings must always be compared using "Equals" method.
+B. Strings in C# must be enclosed in double quotes.
+C. Single quotes are for strings only.
+D. "name" is not declared properly.
+
+*/
+
+// Example 4: Array Index Out of Bounds
+
+using System;
+
+namespace Example4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = { 1, 2, 3 };
+            Console.WriteLine(numbers[3]); 
+        }
+    }
+}
+
+/*
+Quiz Question 4: What will happen when you try to run the above code?
+
+A. The program will output "3".
+B. The program will throw a compilation error.
+C. The program will throw an "IndexOutOfRangeException".
+D. The program will run and produce no output.
+
+*/
+
+// Example 5: Null Reference Exception
+
+using System;
+
+namespace Example5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string message = null;
+            Console.WriteLine(message.Length); 
+        }
+    }
+}
+
+/*
+Quiz Question 5: What is the problem with the above code?
+
+A. "message" is not a valid string.
+B. You cannot print the length of a string in C#.
+C. The "message" variable is null, causing a NullReferenceException.
+D. "message" should be declared as an integer.
+
+*/
+
+// Example 6: Division by Zero
+
+using System;
+
+namespace Example6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 0;
+            int result = a / b; 
+            Console.WriteLine(result);
+        }
+    }
+}
+
+/*
+Quiz Question 6: What will happen when you try to run the above code?
+
+A. The program will output "0".
+B. The program will throw a "DivideByZeroException".
+C. The program will run without any errors.
+D. The program will output "Infinity".
+
+*/
+
+// Example 7: Incorrect Use of Logical Operators
+
+using System;
+
+namespace Example7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 5;
+            if (x = 10) 
+            {
+                Console.WriteLine("x is 10");
+            }
+        }
+    }
+}
+
+/*
+Quiz Question 7: What is the problem with the above code?
+
+A. The comparison operator should be "!=" instead of "=".
+B. The assignment operator "=" should be replaced with the comparison operator "==".
+C. "x" should be a string, not an integer.
+D. "if" statements cannot contain integers.
+
+*/
+
+// Example 8: Incorrect Method Return Type
+
+using System;
+
+namespace Example8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int result = GetMessage();
+            Console.WriteLine(result);
+        }
+
+        static string GetMessage() 
+        {
+            return "Hello";
+        }
+    }
+}
+
+/*
+Quiz Question 8: What is the problem with the above code?
+
+A. "GetMessage" should return an integer instead of a string.
+B. The method "GetMessage" is missing a "void" return type.
+C. The "GetMessage" method should not return anything.
+D. "GetMessage" should return "null".
+
+*/
+
+// Example 9: Mismatched Data Types
+
+using System;
+
+namespace Example9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = "123"; 
+            Console.WriteLine(number);
+        }
+    }
+}
+
+/*
+Quiz Question 9: What is the problem with the above code?
+
+A. "number" should be declared as a string.
+B. The value "123" should be converted to an integer using "int.Parse".
+C. "number" is an invalid variable name.
+D. "number" should be initialised with a null value.
+
+*/
+
+// Example 10: Incorrect Loop Condition
+
+using System;
+
+namespace Example10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i <= 10; i--) // 
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
+
+/*
+Quiz Question 10: What is the problem with the above code?
+
+A. The loop will not run because "i" is not incremented properly.
+B. The loop condition should be "i >= 10".
+C. The loop will become an infinite loop because "i" is decremented instead of incremented.
+D. The loop should use a "while" statement instead.
+
+*/

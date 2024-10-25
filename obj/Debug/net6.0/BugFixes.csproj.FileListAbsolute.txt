@@ -1,0 +1,4 @@
+E:\Ulster University\Game Design & Development - Module Information\1st-Yr-Modules\Yr1-S1\CRE132\Class_Material\2024-25\Practicals\BugFixes\obj\Debug\net6.0\BugFixes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ulster University\Game Design & Development - Module Information\1st-Yr-Modules\Yr1-S1\CRE132\Class_Material\2024-25\Practicals\BugFixes\obj\Debug\net6.0\BugFixes.AssemblyInfoInputs.cache
+E:\Ulster University\Game Design & Development - Module Information\1st-Yr-Modules\Yr1-S1\CRE132\Class_Material\2024-25\Practicals\BugFixes\obj\Debug\net6.0\BugFixes.AssemblyInfo.cs
+E:\Ulster University\Game Design & Development - Module Information\1st-Yr-Modules\Yr1-S1\CRE132\Class_Material\2024-25\Practicals\BugFixes\obj\Debug\net6.0\BugFixes.csproj.CoreCompileInputs.cache
